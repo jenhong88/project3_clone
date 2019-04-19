@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+#game-over {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  top: 15px;
+  left: 50px;
+  border: 2px ridge #FF4500;
+  color: #F0E68C;
+  background-color: #FF6347;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 5px 2px #FF4500;
+  width: 220px;
+  height: 200px;
+  font-size:12px;
+  flex-direction:column;
+}
+
+#game-over > h3 {
+  text-align: center;
+  text-shadow: 0.3px 0.3px;
+}
+
+#new-game {
+  width: 90px;
+  height: 100%;
+  background-color: #D2691E;
+  border: 2px groove #A0522D;
+  box-shadow: 1px 1px 5px 1px #A0522D;
+  position: relative;
+  left: 10%;
+  top: 7%;
+  font-weight: bold;
+}
